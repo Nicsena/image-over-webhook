@@ -6,7 +6,7 @@
 
 class FriendlyWebSocket {
     // optional customization of the websocket path
-    constructor({ path = "/experimental", url } = {}) {
+    constructor({ path = "/", url } = {}) {
       this.path = path;
       this.url = url;
       this.connect();
