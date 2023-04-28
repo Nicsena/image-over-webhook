@@ -1,0 +1,23 @@
+{
+  "name": "screenshot-over-webhook",
+  "version": "1.0.0",
+  "description": "An experimental project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Nicsena",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "screenshot-desktop": "^0.0.0-development",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
